@@ -158,3 +158,59 @@ footer {
     position: relative;
     bottom: 0;
 }
+
+/* 🌍 Mobile Layout - Adjusts for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* Center the header */
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Adjust navigation */
+    nav ul {
+        padding: 0;
+    }
+    nav ul li {
+        display: block; /* Stack menu items */
+        margin: 10px 0;
+    }
+
+    /* Adjust logo */
+    .logo {
+        height: 60px; /* Reduce logo size */
+    }
+
+    /* Ensure sections take full width */
+    section {
+        padding: 30px 10px;
+    }
+
+    /* Make big cake images fit mobile screens */
+    .wedding {
+        width: 100%;
+        max-width: 90vw;
+    }
+
+    /* Stack cake items */
+    .cake-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cake-item {
+        width: 90%; /* Make cakes take up most of the screen */
+    }
+
+    /* Center contact form */
+    #contact form {
+        width: 90%;
+    }
+
+    /* Make footer text smaller */
+    footer {
+        font-size: 14px;
+    }
+}
+
