@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angie's Bakation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class ="logo-container">
+            <img src="logo.png" alt="Angie's Bakation logo" class="logo"> <!-- Logo --> 
+        <div>
+    </header>
+        
+    <header>
+        <h1>Angie's Bakation</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Angie's Bakation Cakes</h2>
+        <p>Where everyday is cake day.</p>
+        <button onclick="alert('Order Now feature coming soon!')">Order Now</button>
+        <div class="cake-grid">
+            <!-- Large Cake -->
+            <div class="cake-item wedding">
+                <img src="wedding.jpeg" alt="Wedding Cakes">
+                <h3>Wedding cakes</h3>
+                <p>Let us color your weddings and big events with stunning and delicious multi-tiered cakes</p>
+            </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <p>Features an array of tempting and very delicious cakes, plus also custom flavour combinations as long as you can think it we can bake it...</p>
+        <div class="cake-grid">
+            <div class="cake-item">
+                <img src="image1.jpg" alt="Chocolate Cake">
+                <h3>Chocolate Delight</h3>
+                <p>Rich chocolate cake with a silky ganache.</p>
+            </div>
+            <div class="cake-item">
+                <img src="image3.jpg" alt="Vanilla Cake">
+                <h3>Classic Vanilla</h3>
+                <p>Fluffy vanilla cake with buttercream frosting.</p>
+            </div>
+            <div class="cake-item">
+                <img src="image2.jpg" alt="Chocolate nuts Cake">
+                <h3>Chocolate nuts</h3>
+                <p>Moist chocolate nut cake with cream cheese frosting - Uuutapenda!!.</p>
+            </div>
+            <div class="cake-item">
+                <img src="image4.jpg" alt="Oreo Cake">
+                <h3>Classic Oreo Cake</h3>
+                <p>Fluffy Oreo cake with a hint of pinacolata frosting.</p>
+            </div>
+            <div class="cake-item">
+                <img src="Dale.webp" alt="custom cake">
+                <h3>Custom cake flavours</h3>
+                <p>So long as you can think it we can bake it</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+            <p>© 2025 Angie's Bakation | Designed with love</p>
+    </footer>
+    <script src="script.js"></script>
+    
+        
+
+    
+</body>
+</html>

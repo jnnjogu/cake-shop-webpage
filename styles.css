@@ -1,0 +1,160 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #b85c38;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 80px; /* Adjusted logo size */
+    width: auto; /* Keeps aspect ratio */
+    margin-right: 10px;
+}
+
+/* Header Font Style */
+header h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5pc;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center; /* Ensure text is centered in all sections */
+}
+
+/* Home Section */
+#home {
+    background: url('background.jpg') center/cover no-repeat;
+    color: rgb(28, 26, 26);
+}
+
+/* Menu Section */
+#menu {
+    background-color: #ffe5d9;
+}
+
+/* Cake Grid */
+.cake-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Normal Cake Items */
+.cake-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px; /* Default size for small cakes */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cake-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Big Cake Styling */
+.wedding {
+    width: 90vw; /* Make it cover most of the screen */
+    max-width: 1000px; /* Limit max size */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wedding img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.wedding h3 {
+    font-size: 2rem;
+}
+
+.wedding p {
+    font-size: 1.2rem;
+}
+
+/* ✅ Fix Contact Form Alignment */
+#contact {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #b85c38;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #8f4a2f;
+}
+
+/* ✅ Fix Footer Alignment */
+footer {
+    background-color: #b85c38;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Ensure footer content stays centered */
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
