@@ -16,20 +16,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative; /*here*/
 }
 
 /* Navigation */
+nav {
+    flex-grow: 1; /* Allows space for nav */
+    display: flex;
+    justify-content: flex-end; /* Moves buttons to the right */
+}
 nav ul {
     list-style: none;
+    display: flex;/*here*/
     padding: 0;
 }
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+   /* display: inline;
+    margin: 0 15px;*/
+     margin: 0 10px;
 }
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
 }
 /* Unique colors for each navigation button */
 nav ul li:nth-child(1) a { /* Home */
@@ -50,12 +60,15 @@ nav ul li a:hover {
 .logo-container {
     display: flex;
     display: flex;
+    transform: translateX(-50%) /*here*/
     justify-content: center;
     align-items: center;
-    height: 100hv;
+    /*height: 100hv;*/
     background-color: white;
-    width: 100%;
-    padding: 10px 0;
+    /*width: 100%;
+    padding: 10px 0;*/
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 .logo {
