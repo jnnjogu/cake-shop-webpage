@@ -6,10 +6,22 @@
     <title>Angie's Bakation</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        .logo-container {
+            display: flex;
+            justify-content: centre;
+            align-items: centre;
+            padding: 20px;
+            background-color: white;
+            height: 100vh;
+        }
         .logo {
-            width: 150px; /* Adjust size as needed */
+            width: 300px; /* Adjust size as needed */
             height: auto;
         }
+        @media (max-width: 600px) {
+            .logo {
+                width: 200px; /* Smaller logo for mobile */
+            }
         .button-container {
             display: flex;
             gap: 15px;
