@@ -36,13 +36,19 @@ nav ul li a {
 /* Logo */
 .logo-container {
     display: flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    background-color: white;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
 }
+
 .logo {
-    height: 80px; /* Adjusted logo size */
-    width: auto; /* Keeps aspect ratio */
-    margin-right: 10px;
+    height: 200px; /* Adjust as needed */
+    width: auto;
 }
+
 
 /* Header Font Style */
 header h1 {
