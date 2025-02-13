@@ -12,8 +12,7 @@ body {
 /* Header */
 header {
     background-color: #b85c38;
-    color: white;
-    padding: 15px 20px;
+    padding: 15px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
