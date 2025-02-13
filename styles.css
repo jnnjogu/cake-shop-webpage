@@ -59,15 +59,13 @@ nav ul li a:hover {
 /* Logo */
 .logo-container {
     display: flex;
-    display: flex;
-    transform: translateX(-50%) /*here*/
     justify-content: center;
     align-items: center;
     /*height: 100hv;*/
     background-color: white;
     /*width: 100%;
     padding: 10px 0;*/
-    padding: 10px 20px;
+    padding: 10px 0px;
     border-radius: 10px;
 }
 
