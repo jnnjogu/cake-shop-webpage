@@ -31,6 +31,20 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+/* Unique colors for each navigation button */
+nav ul li:nth-child(1) a { /* Home */
+    background-color: #ff5733; /* Orange-red */
+}
+nav ul li:nth-child(2) a { /* Menu */
+    background-color: #3498db; /* Blue */
+}
+nav ul li:nth-child(3) a { /* Contact */
+    background-color: #2ecc71; /* Green */
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+}
 
 /* Logo */
 .logo-container {
