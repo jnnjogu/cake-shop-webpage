@@ -33,13 +33,13 @@ nav ul li a {
 }
 /* Unique colors for each navigation button */
 nav ul li:nth-child(1) a { /* Home */
-    background-color: #ff5733; /* Orange-red */
+    background-color: #b85c38; 
 }
 nav ul li:nth-child(2) a { /* Menu */
-    background-color: #3498db; /* Blue */
+    background-color: #b85c38; 
 }
 nav ul li:nth-child(3) a { /* Contact */
-    background-color: #2ecc71; /* Green */
+    background-color: #b85c38; 
 }
 
 nav ul li a:hover {
@@ -63,6 +63,19 @@ nav ul li a:hover {
     width: auto;
 }
 
+/* Icons Container */
+.icon-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns icons to the left */
+    align-items: center;
+    padding-left: 20px; /* Adjust padding as needed */
+}
+
+.icon-container i {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
 
 /* Header Font Style */
 header h1 {
