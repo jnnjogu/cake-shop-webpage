@@ -40,8 +40,9 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 100vh; /* Full viewport height */
+    height: auto;
     width: 100%;
+    padding: 10px 0;
 }
 
 .logo {
