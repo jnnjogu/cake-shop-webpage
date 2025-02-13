@@ -63,10 +63,9 @@ nav ul li a:hover {
     align-items: center;
     /*height: 100hv;*/
     background-color: white;
-    /*width: 100%;
-    padding: 10px 0;*/
+    width: 100%;
     padding: 10px 0px;
-    border-radius: 10px;
+    /*border-radius: 10px; added the width*/
 }
 
 .logo {
