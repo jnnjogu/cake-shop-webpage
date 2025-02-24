@@ -113,7 +113,7 @@ section {
 /* Video Section */
 .video-container {
     width: 100vw; /* Full width of the viewport */
-    height: 100vh; /* Full height of the viewport */
+    height: 300px; /* Full height of the viewport */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,7 +123,7 @@ section {
 /* Ensure the video fully covers the container */
 .video-container video {
     width: 100vw; /* Full width */
-    height: 100vh; /* Full height */
+    height: px; /* Full height */
     object-fit: cover; /* Ensures the video scales properly without stretching */
 }
 
