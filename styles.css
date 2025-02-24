@@ -115,22 +115,20 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%; /* Adjust width to fit within page layout */
-    max-width: 1200px; /* Ensures it doesn't stretch too much */
-    height: 500px; /* Adjust height to fit within the section */
-    margin: 40px auto; /* Centers it and adds spacing */
-    border-radius: 10px; /* Adds rounded edges for a smoother look */
-    overflow: hidden; /* Prevents excess video overflow */
+    width: 100vw; /* Full screen width */
+    height: 350px; /* Adjusted height to avoid taking up too much space */
+    margin: 40px 0; /* Adds spacing from other sections */
+    overflow: hidden; /* Ensures no overflow */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
 }
 
-/* Ensure the video fills the container */
+/* Ensure the video fully covers the width but maintains a proportional height */
 .video-container video {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures it covers the box without distortion */
-    border-radius: 10px;
+    object-fit: cover; /* Ensures it fills the section properly without distortion */
 }
+
 
 
 
