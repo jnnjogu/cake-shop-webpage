@@ -113,7 +113,7 @@ section {
 .video-container {
     position: relative;
     width: 100vw; /* Full width */
-    height: 80vh; /* Adjust for full screen */
+    min-height: 80vh; /* Minimum height for larger screens */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,8 +123,8 @@ section {
 /* Ensure video fully covers the container */
 .video-container video {
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Prevents video distortion */
+    height: 100%; /* Adjust dynamically */
+    object-fit: cover; /* Ensures full coverage without distortion */
 }
 
 /* Overlay text styling */
@@ -140,6 +140,7 @@ section {
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 10px 20px;
     border-radius: 5px;
+    z-index: 2; /* Ensure overlay text is above the video */
 }
 
 /* Paragraph inside video container */
@@ -153,12 +154,17 @@ section {
     background: rgba(0, 0, 0, 0.6);
     padding: 10px;
     border-radius: 5px;
+    z-index: 2; /* Ensure paragraph is above video */
 }
 
 /* 🔹 Mobile Responsiveness */
 @media (max-width: 768px) {
     .video-container {
-        height: 50vh; /* Reduce height on smaller screens */
+        height: auto; /* Let height adjust dynamically */
+        min-height: 50vh; /* Ensure it's not too small */
+    }
+    .video-container video {
+        object-fit: contain; /* Prevents extreme cropping */
     }
     .video-overlay {
         font-size: 1.5rem; /* Reduce heading size */
@@ -169,6 +175,7 @@ section {
         padding: 8px;
     }
 }
+
 
 
 /* Cake Grid */
