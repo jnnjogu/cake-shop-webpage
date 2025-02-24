@@ -110,6 +110,17 @@ section {
     background-color: #ffe5d9;
 }
 
+.video-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px; /* Adjust video width */
+    overflow: hidden;
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
 /* Cake Grid */
 .cake-grid {
     display: flex;
