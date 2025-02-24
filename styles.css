@@ -114,7 +114,6 @@ section {
     position: relative;
     width: 100vw; /* Full width */
     height: 100px; /* Adjust height as needed */
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
